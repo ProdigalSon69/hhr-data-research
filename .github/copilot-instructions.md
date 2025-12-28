@@ -19,8 +19,9 @@ This is the HHR (individual quantitative research system) focused on:
 1. **Research Reproducibility**: All code should support reproducible research
 2. **Data Integrity**: Handle market data with care - no data leakage, proper train/test splits
 3. **Performance**: Optimize for both computational efficiency and statistical rigor
-4. **Compliance**: Respect Dukascopy terms, rate limits, and licensing requirements
-5. **Privacy**: Data is for personal research only - no redistribution
+4. **Documentation**: Maintain clear documentation and code comments to ensure research is understandable and reproducible
+5. **Compliance**: Respect Dukascopy terms, rate limits, and licensing requirements
+6. **Privacy**: Data is for personal research only - no redistribution
 
 ## Technical Guidelines
 
@@ -50,7 +51,7 @@ This is the HHR (individual quantitative research system) focused on:
 ### Suggested Libraries & Tools
 - **Data**: pandas, numpy, polars (for large datasets)
 - **Visualization**: matplotlib, seaborn, plotly
-- **Backtesting**: backtrader, vectorbt, or custom frameworks
+- **Backtesting**: backtrader, VectorBT, or custom frameworks
 - **Statistical Analysis**: scipy, statsmodels, scikit-learn
 - **API/Data**: requests, aiohttp (for async data fetching)
 - **Database**: sqlite3, PostgreSQL for data storage
